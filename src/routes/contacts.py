@@ -5,7 +5,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.database.db import get_db
 from src.entity.models import User, Role
-from src.repository import contacts as repositories_contacts
+from src.repository import contacts
 from src.schemas.contact import ContactSchema, ContactUpdateSchema, ContactResponse
 from src.services.auth import auth_service
 from src.services.roles import RoleAccess
