@@ -1,0 +1,2 @@
+Команда запуску
+python main.py runserver
